@@ -1,0 +1,69 @@
+body {
+    color: black;
+}
+
+div {
+    /*border: red solid 1px;*/
+}
+
+.title {
+    font-size: 2em;
+}
+
+.description-input {
+    width: 200px;
+    height: 75px;
+    resize: none;
+    overflow: auto;
+}
+
+.location-input {
+    text-transform: capitalize;
+}
+
+.location-input::placeholder {
+    text-transform: none;
+}
+
+.input-label {
+    /*font-weight: bold;*/
+}
+
+/*removes the spinners from the number inputs in html*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[name="contactNumber"] {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"],
+input[name="contactNumber"] {
+    -moz-appearance: textfield;
+}
+
+.tournament-table {
+    padding-top: 2%;
+}
+
+.tournament-table-header {
+    background-color: #66B9BF;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.tournament-description {
+    resize: none;
+}
+
+.info-tab-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.info-tab-text
+{
+    font-size: 1em;
+}
